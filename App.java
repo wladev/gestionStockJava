@@ -34,9 +34,9 @@ public class App extends JFrame {
 
     // Connexion à la base
     private Connection getConnection() throws SQLException {
-        String url = "jdbc:mysql://mysql-wladimirperfiloff.alwaysdata.net:3306/wladimirperfiloff_stockbatteries?useSSL=false&serverTimezone=UTC";
-        String user = "336752";
-        String password = "SacreeSession1234";
+        String url = "jdbc:mysql://********";
+        String user = "******";
+        String password = "*******";
         return DriverManager.getConnection(url, user, password);
     }
 
